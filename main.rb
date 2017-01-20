@@ -12,7 +12,7 @@ def detect_575 str, phrase = [5,7,5]
 		if ctn == phrase[n]
 			next res if n+1 == phrase.size
 			next cp.call(n+1,0,pos,res + " ")
-		elsif (ctn == 0 && ar[pos][1] == ("助詞"||"助動詞")) || ctn > phrase[n] || pos == ar.size
+		elsif pos == ar.size || (ctn == 0 && ar[pos][1] == ("助詞"||"助動詞")) || ctn > phrase[n]
 			next nil
 		end
 		next cp.call(n,ctn+ar[pos][2],pos+1,res+ar[pos][0])
