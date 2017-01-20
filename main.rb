@@ -9,7 +9,6 @@ def detect_575 str, phrase = [5,7,5]
 	}
 	result = []
 	cp = -> (n,ctn,pos,res){
-		p n,ctn,pos,res
 		if pos == ar.size || (ctn == 0 && (ar[pos][1] == ("助詞"||"助動詞") || (ar[pos][1] != ("動詞") && ar[pos][2] == ("非自立"||"接尾")))) || ctn > phrase[n]+1
 			next nil
 		elsif [*phrase[n]-1..phrase[n]+1].include?(ctn)

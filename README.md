@@ -3,6 +3,10 @@
 
 Using this program, you can easily detect whether the sentence contains *"Haiku"*.
 
+# Examples
+
+
+
 # TODO
 
 - [x] count Japanese syllable accurately. (like *チャ,チュ,チョ etc..)*
