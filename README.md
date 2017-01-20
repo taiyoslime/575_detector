@@ -5,7 +5,13 @@ Using this program, you can easily detect whether the sentence contains *"Haiku"
 
 # Examples
 
+```ruby
+detect_575 "古池や蛙飛び込む水の音だね"
+=> ["古池や 蛙飛び込む 水の音"]
 
+detect_575 "やっぱね僕は古池こそ蛙飛び込む水の音といった感じ"
+=> ["古池こそ 蛙飛び込む 水の音"]
+```
 
 # TODO
 
