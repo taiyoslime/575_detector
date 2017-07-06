@@ -13,7 +13,7 @@ Using this program, you can easily detect whether the sentence contains *"Haiku"
 => ["古池こそ 蛙飛び込む 水の音"]
 # default: amari（字余り） => true, tarazu（字足らず）=> false
 
-detect_575 "虹が出るああ鼻先に軍艦", tarazu:true
+>> detect_575 "虹が出るああ鼻先に軍艦", tarazu:true
 => ["虹が出る ああ鼻先に 軍艦"]
 
 >> detect_575 "進捗を進捗をだせ進捗をいいからさっさと進捗をだせ", phrase:[5,7,5,7,7]
